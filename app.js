@@ -14,7 +14,8 @@ const {
 } = require('./middleware/bindUserWithRequest.middleware');
 const setLocals = require('./middleware/setLocals.middleware');
 
-// DotEnv Inputs
+
+// DotEnv Inputs.
 const PORT = process.env.PORT || 8080;
 const { DB } = process.env;
 
